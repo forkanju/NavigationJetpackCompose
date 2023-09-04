@@ -1,8 +1,12 @@
-package com.example.navigationjetpackcompose
+package com.example.navigationjetpackcompose.ui.navigation
 
 
 const val DETAIL_ARGUMENT_KEY = "id"
 const val DETAIL_ARGUMENT_KEY2 = "name"
+
+const val AUTH_ROUTE = "authentication"
+const val ROOT_ROUTE = "root"
+const val HOME_ROUTE = "home"
 
 sealed class Screen(val route: String) {
     object Home : Screen(route = "home_screen")
@@ -35,6 +39,9 @@ sealed class Screen(val route: String) {
         return "detail_screen/$id/$name"
         }*/
     }
+
+    object Login : Screen(route = "login_screen")
+    object SignUp : Screen(route = "signup_screen")
 
 
 }
