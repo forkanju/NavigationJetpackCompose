@@ -1,5 +1,6 @@
 # NavigationJetpackCompose
-This is JetpackCompose Navigation Tutorial practice workfrom Stevdza-San. Here I'm going to implemented basic Navigation, send arguments optional and required, single and multiple, nested navigation, bottom navigation, nested navigation with bottom bar.
+### This is a Jetpack Compose Navigation Tutorial practice work by Stevdza-San. Here, I'm going to implement basic navigation, send optional and required arguments (both single and multiple), nested navigation, bottom navigation, and nested navigation with a bottom bar.
+
 ## For simple project - with 3 to 5 screens
 ![nav_graph_1](https://github.com/forkanju/NavigationJetpackCompose/assets/46061345/21e66429-cae0-478e-bd92-b73b4016240a)
 
